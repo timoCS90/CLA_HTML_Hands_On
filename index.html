@@ -9,33 +9,36 @@
   <body>
     <header>
       <img src="./assets/logo.svg" alt="CodeCLA_Logo" />
-      <p>CodeCla</p>
+      <p>CodeCLA</p>
+      <a href="#forCoders">For Coders</a>
       <a href="signUp.html">Sign Up</a>
-      <a href="signIn.html">Sign In</a>
+      <a href="signIn.html">Sign In</a><br />
       <button>Join Now</button>
     </header>
 
     <main>
-      <h1>The place for Competetive Programmers</h1>
-      <p>
-        CodeCla is where programmers participate in programming contests, solve
-        algorithm and data structure challenges and become a part of an awesome
-        community.
-      </p>
-      <button>Become a coder</button>
-      <button>Become a manager</button>
+      <div class="signUp">
+        <h1>The place for Competetive Programmers</h1>
+        <p>
+          CodeCla is where programmers participate in programming contests,
+          solve algorithm and data structure challenges and become a part of an
+          awesome community.
+        </p>
+        <button>Become a coder</button>
+        <button>Become a manager</button>
 
-      <h2>Practice to level-up</h2>
-      <p>
-        1k <br />
-        Problems for practice <br />
-        100+ <br />
-        Coders <br />
-        10 <br />
-        Programming languages <br />
-        130K <br />
-        Submissions
-      </p>
+        <h2>Practice to level-up</h2>
+        <p>
+          1k <br />
+          Problems for practice <br />
+          100+ <br />
+          Coders <br />
+          10 <br />
+          Programming languages <br />
+          130K <br />
+          Submissions
+        </p>
+      </div>
 
       <div class="forCoders">
         <h2>For coders</h2>
@@ -101,7 +104,7 @@
         </p>
         <img src="./assets/ok.svg" alt="Green check picture" />
         <p>Access deficated support from our team of experts</p>
-        <button>Join managers community</button>
+        <button>Join managers community</button> <br />
         <img src="./assets/logo.svg" alt="CodeCLA_Logo" />
       </div>
 
@@ -130,20 +133,34 @@
           src="https://randomuser.me/api/portraits/women/44.jpg"
           alt="testimonial"
         />
-        <p>June Cha</p>
+        <p><strong>June Cha</strong></p>
         <p>Software Engineer</p>
       </div>
 
       <div class="contactForm">
         <h2 id="formHeading">Contact us</h2>
-        <label for="name">Name</label>
-        <input type="text" />
-        <label for="email">Email</label>
-        <input type="email" name="email" id="emailInput" />
-        <label for="message">Message</label>
-        <input type="textarea" />
-        <input type="submit" value="submit" />
+        <label for="name">Name</label> <br />
+        <input type="text" name="name" id="nameInput" placeholder="Your Name" />
+        <br />
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          name="email"
+          id="emailInput"
+          placeholder="Your Email"
+        />
+        <br />
+        <label for="message">Message</label> <br />
+        <textarea
+          name="message"
+          id="messageInput"
+          rows="3"
+          placeholder="Your Message"
+        ></textarea>
+        <br />
+        <input type="submit" value="Submit" />
       </div>
+      <br />
     </main>
 
     <footer>
