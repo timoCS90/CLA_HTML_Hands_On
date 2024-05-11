@@ -1,0 +1,127 @@
+/* Primary Color: #8053FF
+Main Body Color: #23155B 
+Gray Light Color: #817d8e 
+White Color: #f4f4f4 
+Background Color: #f4f4f4 */
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap');
+
+.noto-sans-khojki-regular {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.martel-sans-extralight {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.martel-sans-light {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.martel-sans-regular {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.martel-sans-semibold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.martel-sans-bold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.martel-sans-extrabold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.martel-sans-black {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    display: grid;
+    grid-template: 100px / 2fr 1fr;
+    align-items: center;
+}
+
+.nav_item1 {
+    display: grid;
+    display: inline;
+    background-color: blue;
+    font-size: x-large;
+    align-self: stretch;
+}
+
+.nav_logo {
+    position: relative;
+    left: 10%;
+}
+
+.nav_logo img {
+    float: left;
+    height: 40px;
+}
+
+.nav_item2 {
+    display: flex;
+    background-color: yellow;
+    align-self: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #8053FF;
+    color: #f4f4f4;
+    border-radius: 5%;
+    font-family: "Noto Sans Khojki", sans-serif;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a {
+    color: #817d8e;
+}
