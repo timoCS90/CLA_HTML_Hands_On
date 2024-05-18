@@ -167,40 +167,68 @@ button {
     border-style: solid;
     border-width: thin;
     border-color: #8053FF;
-    color: #8053FF;
+    color: #8053FF;grid-template-columns: 1fr 3fr 1fr;
     background-color: #f4f4f4;
 }
 
 /* Statistics Styling */
 
 .statistics {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 30% 30% 1fr;
     background-color: #e8e7e9;
-    height: 80vh;
     text-align: center;
+    gap: 20px;
 }
 
 #heading-purple {
-    margin-top: 20%;
+    grid-row: 2 / 3 ;
+    grid-column: 2 / 4;
     color: #8053FF;
-    margin-bottom: 4%;
 }
 
-#statistics {
-    align-self: center;
-    justify-self: center;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+#heading-purple h2 {
+    width: 100%;
+    bottom: 0;
+}
+
+#card1 {
+    grid-area: 3 / 2 / 4 / 3 ;
+}
+
+#card2 {
+    grid-area: 3 / 3 / 4 / 4 ;
+}
+
+#card3 {
+    grid-area: 4 / 2 / 5 / 3 ;
+}
+
+#card4 {
+    grid-area: 4 / 3 / 5 / 4 ;
 }
 
 .stat-cards {
     border-radius: 8px;
     background-color: #f4f4f4;
-    margin: 20px 30px;
     box-shadow: 10px 10px 50px grey;
-    width: 40vh;
 }
+
+/* for Coders */
+
+.coder-cards-container {
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(3 , 1fr);
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.coder-card {
+    display: flex;
+    background-color: aqua;
+}
+
+
