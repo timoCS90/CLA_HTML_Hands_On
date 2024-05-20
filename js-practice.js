@@ -4,11 +4,11 @@ Create a variable named age and assign it your age as a number.
 Create a variable named isStudent and assign it a boolean value indicating whether you are a student or not.
 Print all three variables to the console. */
 
-let myName = Timo;
+let myName = "Timo";
 let myAge = 33;
 let isStudent = false;
 
-console.log(myName + myAge + isStudent)
+console.log(myName, myAge, isStudent)
 
 /* 2: Data Types
 Create an array named favoriteFoods and populate it with three of your favorite foods.
@@ -23,28 +23,28 @@ const person = {
     hobbies: "Javascript",
 }
 
-console.log(favoriteFoods + person)
+console.log(favoriteFoods, person)
 
 /*3: Conditions
 Write a function named checkAge that takes an age as a parameter and prints "Adult" if the age is 18 or older, and "Minor" if the age is under 18.
 */
 
-let age = 20;
+const age = 20;
 
 function checkAge (age) {
     if (age >= 18) {
         console.log("Adult");
     } else {
         console.log("Minor");
-    }
+    };
 }
 
 /* 4: Loops
 Write a for loop that prints the numbers from 1 to 10.
 Write a while loop that prints the numbers from 10 to 1. */
 
-for (let r = 0; r < 10; r++) {
-    console.log();
+for (let r = 1; r < 11; r++) {
+    console.log(r);
 }
 
 let n = 10;

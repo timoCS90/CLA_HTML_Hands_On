@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CLA Coding</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <img class="item1" src="./assets/logo.svg" alt="CodeCLA_Logo" />
-          <p id="item1" class="item1">CLA</p>
-        </div>
 
-        <div class="menu">
-          <a class="item2" href="#forCoders">For Coders</a>
-          <a class="item2" href="sign-up.html">Sign Up</a>
-          <a class="item2" href="sign-in.html">Sign In</a>
-          <button>Join now</button>
-        </div>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLA Coding</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <main>
-      <!-- Hero Section -->
+<body>
+  <header>
+    <nav>
+      <div class="nav-element-left">
+        <img class="item1" src="./assets/logo.svg" alt="CodeCLA_Logo" />
+        <p id="item1" class="item1">CLA</p>
+      </div>
 
-      <section class="hero">
-        <h2>The place for Competetive Programmers</h2>
-        <p class="medium-text-grey">
-          CodeCla is where programmers participate in programming contests,
-          solve algorithm and data structure challenges and become a part of an
-          awesome community.
-        </p>
-        <div class="hero-links-div">
-          <a class="hero-links">Become a coder</a>
-          <a class="hero-links">Become a manager</a>
-        </div>
-      </section>
+      <div class="menu">
+        <a class="item2" href="#forCoders">For Coders</a>
+        <a class="item2" href="sign-up.html">Sign Up</a>
+        <a class="item2" href="sign-in.html">Sign In</a>
+        <button>Join now</button>
+      </div>
+    </nav>
+  </header>
 
-      <!-- Statistic Section-->
+  <main>
+    <!-- Hero Section -->
 
-      <section class="statistics">
-        <div id="heading-purple">
-          <h2>Practice to level-up</h2>
-        </div>
+    <section class="hero">
+      <h2>The place for Competetive Programmers</h2>
+      <p class="p-elements-medium">
+        CodeCla is where programmers participate in programming contests,
+        solve algorithm and data structure challenges and become a part of an
+        awesome community.
+      </p>
+      <div class="hero-links-div">
+        <a class="hero-links">Become a coder</a>
+        <a class="hero-links">Become a manager</a>
+      </div>
+    </section>
 
+    <!-- Statistic Section-->
+
+    <section class="statistics-section">
+      <div>
+        <h2 class="heading-purple">Practice to level-up</h2>
+      </div>
+      <div class="statistics">
         <div class="stat-cards" id="card1">
           <p>1K</p>
           <p>Problems for practice</p>
@@ -65,106 +67,125 @@
           <p>130K</p>
           <p>Submissions</p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="forCoders">
-        <h2 id="h-forCoders">For coders</h2>
-        <p>What you will gain</p>
-        <p>
-          You are a coder who wnats to level up his skills in coding and problem
-          solving?. Here what we provide
-        </p>
+    <section class="forCoders">
+      <h2 class="heading-purple">For coders</h2>
+      <h3>What you will <span>gain</span></h3>
+      <p>
+        You are a coder who wants to level up his skills in coding and problem
+        solving?. Here what we provide
+      </p>
 
-        <div class="coder-cards-container">
-          <div id="coder-card1" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <div>
-              <p>Rich practice set of problems</p>
-              <p>
-                Acces a rich library of practice problems, algorithms, and data
-                structures to enhance your skills
-              </p>
-            </div>
+      <div id="coder-grid" class="benefit-section-grid">
+        <div id="coder-card1" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <div>
+            <p>Rich practice set of problems</p>
+            <p class="sub-text-light">
+              Acces a rich library of practice problems, algorithms, and data
+              structures to enhance your skills
+            </p>
           </div>
-
-          <div id="coder-card2" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <div>
-              <p>Universal contests</p>
-              <p>
-                Compete in regularly scheduled contests against top talent from
-                around the globe
-              </p>
-            </div>
-          </div>
-
-          <div id="coder-card3" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <div>
-              <p>Constant feedback</p>
-              <p>
-                Receive personalized insights and feedback to improve your
-                problem-solving abilities
-              </p>
-            </div>
-          </div>
-
-          <div id="coder-card4" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <div>
-              <p>Sharing is caring</p>
-              <p>
-                Connect with like-minded individuals, form teams, and tackle
-                challenges together
-              </p>
-            </div>
-          </div>
-
-          <div id="coder-card5" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <p>Track your progress and climb the ranks on our leaderboard</p>
-          </div>
-
-          <div id="coder-card6" class="coder-card">
-            <img src="./assets/ok.svg" alt="Green check picture" />
-            <p>Detailed solutions for problems</p>
-          </div>
-
-          <button>Join coders community</button>
         </div>
-      </section>
 
-      <section class="forManagers">
-        <h2>For managers</h2>
-        <h3>Access high-professional platform for coding challenges design</h3>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>
-          Craft tailored coding challenges suited to your specific needs and
-          objectives.
-        </p>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>
-          Design challenges that align perfectly with your recruitment criteria
-        </p>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>
-          Choose from a wide range of problem types including algorithmic, data
-          structures, puzzles, and more.
-        </p>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>Ergonomic tools for challenges design</p>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>
-          Collaborate with colleagues or peers in creating and refining coding
-          challenges
-        </p>
-        <img src="./assets/ok.svg" alt="Green check picture" />
-        <p>Access deficated support from our team of experts</p>
-        <button>Join managers community</button> <br />
+        <div id="coder-card2" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <div>
+            <p>Universal contests</p>
+            <p class="sub-text-light">
+              Compete in regularly scheduled contests against top talent from
+              around the globe
+            </p>
+          </div>
+        </div>
+
+        <div id="coder-card3" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <div>
+            <p>Constant feedback</p>
+            <p class="sub-text-light">
+              Receive personalized insights and feedback to improve your
+              problem-solving abilities
+            </p>
+          </div>
+        </div>
+
+        <div id="coder-card4" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <div>
+            <p>Sharing is caring</p>
+            <p class="sub-text-light">
+              Connect with like-minded individuals, form teams, and tackle
+              challenges together
+            </p>
+          </div>
+        </div>
+
+        <div id="coder-card5" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>Track your progress and climb the ranks on our leaderboard</p>
+        </div>
+
+        <div id="coder-card6" class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>Detailed solutions for problems</p>
+        </div>
+
+        <button>Join coders community</button>
+      </div>
+    </section>
+
+    <section class="forManagers">
+      <h2 class="heading-purple">For managers</h2>
+      <h3>
+        Access <span>high-professional</span> platform for coding challenges design
+      </h3>
+      <div id="manager-grid" class="benefit-section-grid">
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>
+            Craft tailored coding challenges suited to your specific needs and
+            objectives.
+          </p>
+        </div>
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>
+            Design challenges that align perfectly with your recruitment criteria
+          </p>
+        </div>
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>
+            Choose from a wide range of problem types including algorithmic, data
+            structures, puzzles, and more.
+          </p>
+        </div>
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>Ergonomic tools for challenges design</p>
+        </div>
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>
+            Collaborate with colleagues or peers in creating and refining coding
+            challenges
+          </p>
+        </div>
+        <div class="benefit-cards">
+          <img src="./assets/ok.svg" alt="Green check picture" />
+          <p>Access deficated support from our team of experts</p>
+        </div>
+      </div>
+      <button>Join managers community</button>
+    </section>
+
+    <section class="brought">
+      <img id="team-picture" src="./assets/team.svg" alt="picture of the Cla Team">
+      <div class="brought-container">
         <img src="./assets/logo.svg" alt="CodeCLA_Logo" />
-      </section>
-
-      <section>
         <h2>Brought to you by CLA</h2>
         <p>
           Join the Ultimate Hub for Programmers and reach growth and excellence
@@ -174,60 +195,45 @@
           Coding challenges is made simple by our platform. Access a dashboard
           of tools for high-quality challenge design
         </p>
-      </section>
+      </div>
+    </section>
 
-      <section class="testimonials">
-        <h2>Testimonials</h2>
-        <p>
-          This guy is an amazing frontend developer that delivered the task
-          exactly how we need it, do your self a favor and hire him, you will
-          not be disappointed by the work delivered. He will go the extra mile
-          to make sure that you are happy <br />
-          with your project. I will surely work again with him!
-        </p>
-        <img
-          src="https://randomuser.me/api/portraits/women/44.jpg"
-          alt="testimonial"
-        />
-        <p><strong>June Cha</strong></p>
-        <p>Software Engineer</p>
-      </section>
+    <section class="testimonials">
+      <h2>Testimonials</h2>
+      <p>
+        This guy is an amazing frontend developer that delivered the task
+        exactly how we need it, do your self a favor and hire him, you will
+        not be disappointed by the work delivered. He will go the extra mile
+        to make sure that you are happy <br />
+        with your project. I will surely work again with him!
+      </p>
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="testimonial" />
+      <p><strong>June Cha</strong></p>
+      <p>Software Engineer</p>
+    </section>
 
-      <section class="contactForm">
-        <h2 id="formHeading">Contact us</h2>
-        <form>
-          <label for="name">Name</label> <br />
-          <input
-            type="text"
-            name="name"
-            id="nameInput"
-            placeholder="Your Name"
-          />
-          <br />
-          <label for="email">Email</label> <br />
-          <input
-            type="email"
-            name="email"
-            id="emailInput"
-            placeholder="Your Email"
-          />
-          <br />
-          <label for="message">Message</label> <br />
-          <textarea
-            name="message"
-            id="messageInput"
-            rows="3"
-            placeholder="Your Message"
-          ></textarea>
-          <br />
-          <input type="submit" value="Submit" />
-        </form>
-      </section>
-      <br />
-    </main>
+    <section class="contactForm">
+      <h2 id="formHeading">Contact us</h2>
+      <form>
+        <label for="name">Name</label> <br />
+        <input type="text" name="name" id="nameInput" placeholder="Your Name" />
+        <br />
+        <label for="email">Email</label> <br />
+        <input type="email" name="email" id="emailInput" placeholder="Your Email" />
+        <br />
+        <label for="message">Message</label> <br />
+        <textarea name="message" id="messageInput" rows="3" placeholder="Your Message"></textarea>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <br />
+  </main>
 
-    <footer>
-      © 2024 Your Competetive Programming Platform. All rights reserved.
-    </footer>
-  </body>
+  <footer>
+    © 2024 Your Competetive Programming Platform. All rights reserved.
+  </footer>
+  <script src="js-practice.js"></script>
+</body>
+
 </html>
