@@ -1,34 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign In</title>
-  </head>
-  <body>
-    <main>
-      <section>
-        <img src="./assets/coding.png" alt="Picture of a coder" />
-      </section>
-      <section class="signInForm">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In</title>
+  <link rel="stylesheet" href="sign-in.css">
+</head>
+
+<body>
+  <main>
+    <section class="left">
+      <img src="./assets/coding.png" alt="Picture of a coder" />
+    </section>
+    <section class="right">
+      <div class="sign-in-form">
         <h2>Login Now!</h2>
         <form>
-          <input
-            type="email"
-            name="emailSignIn"
-            id="emailSignIn"
-            placeholder="Email"
-          />
-          <input
-            type="password"
-            name="password"
-            id="passwordSignIn"
-            placeholder="Password"
-          />
-          <input type="submit" value="Sign In" /> <br />
-          <p>New to CodeCLA <a href="./sign-up.html">Login</a></p>
+          <input type="email" name="emailSignIn" id="emailSignIn" placeholder="Email" />
+          <input type="password" name="password" id="passwordSignIn" placeholder="Password" />
+          <input type="submit" value="Login" />
+          <p>New to CodeCLA <a href="./sign-up.html">Sign-up</a></p>
         </form>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>

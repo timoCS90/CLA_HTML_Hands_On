@@ -183,8 +183,11 @@
     </section>
 
     <section class="brought">
-      <img id="team-picture" src="./assets/team.svg" alt="picture of the Cla Team">
-      <div class="brought-container">
+
+      <img id="b-pic" src="./assets/team.svg" alt="picture of the Team">
+
+
+      <div class="brought-center">
         <img src="./assets/logo.svg" alt="CodeCLA_Logo" />
         <h2>Brought to you by CLA</h2>
         <p>
@@ -199,20 +202,24 @@
     </section>
 
     <section class="testimonials">
-      <h2>Testimonials</h2>
-      <p>
-        This guy is an amazing frontend developer that delivered the task
-        exactly how we need it, do your self a favor and hire him, you will
-        not be disappointed by the work delivered. He will go the extra mile
-        to make sure that you are happy <br />
-        with your project. I will surely work again with him!
-      </p>
-      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="testimonial" />
-      <p><strong>June Cha</strong></p>
-      <p>Software Engineer</p>
+      <h2 class="heading-purple">Testimonials</h2>
+      <div class="testimonials-card">
+        <p>
+          This guy is an amazing frontend developer that delivered the task
+          exactly how we need it, do your self a favor and hire him, you will
+          not be disappointed by the work delivered. He will go the extra mile
+          to make sure that you are happy
+          with your project. I will surely work again with him!
+        </p>
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="testimonial" />
+        <p class="test-text-small"><strong>June Cha</strong></p>
+        <p class="test-text-small">Software Engineer</p>
+      </div>
     </section>
+  </main>
 
-    <section class="contactForm">
+  <footer>
+    <div class="contact-form">
       <h2 id="formHeading">Contact us</h2>
       <form>
         <label for="name">Name</label> <br />
@@ -224,13 +231,10 @@
         <label for="message">Message</label> <br />
         <textarea name="message" id="messageInput" rows="3" placeholder="Your Message"></textarea>
         <br />
-        <input type="submit" value="Submit" />
+        <input id="submit" type="submit" value="Submit" />
       </form>
-    </section>
-    <br />
-  </main>
 
-  <footer>
+    </div>
     © 2024 Your Competetive Programming Platform. All rights reserved.
   </footer>
   <script src="js-practice.js"></script>

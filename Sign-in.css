@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Sans+Khojki&display=swap');
+
+/* Colors */
+
+.noto-sans-khojki-regular {
+    font-family: "Noto Sans Khojki", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.martel-sans-extralight {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.martel-sans-light {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.martel-sans-regular {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.martel-sans-semibold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.martel-sans-bold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.martel-sans-extrabold {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.martel-sans-black {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+:root {
+    --Primary: #8053FF;
+    --Main-body: #23155B;
+    --Gray-light: #817d8e;
+    --White: #f4f4f4;
+}
+
+body {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: semi-bold;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    background-color:#23155B;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    height: 30vh;
+    width: auto;
+}
+
+.right {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: white;
+    box-shadow: 0.2rem 0.2rem 2rem gray;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+}
+
+.sign-in-form h2 {
+    color: #8053FF;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.sign-in-form form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.sign-in-form input {
+    background-color: #23155B;
+    color: #f4f4f4;
+    margin: 0.2rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.2rem 0.2rem;
+}
+
+.sign-in-form p {
+    margin-top: 0;
+
+}
