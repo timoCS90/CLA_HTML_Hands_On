@@ -79,7 +79,18 @@ console.log(removeNonIntegers([1, true, NaN, "a", 10])) // [1, 10]
 // Practice 5
 // Write a JavaScript function to insert a string within a string at a particular position (default is 1).
 
+function insert(originalString, stringToInsert, position = 1) {
+    
+    let firstPart = originalString.slice(0, position - 1);
+    let secondPart = originalString.slice(position - 1);
+
+    let newString = firstPart + stringToInsert + secondPart;
+
+    return newString;
+}
+
+
 // Examples:
 
-// console.log(insert('We are doing some exercises.','JavaScript ')) //  "JavaScript We are doing some exercises." 
-// console.log(insert('We are doing some exercises.','JavaScript ',18)); //  "We are doing some JavaScript exercises."
+console.log(insert('We are doing some exercises.','JavaScript ')) //  "JavaScript We are doing some exercises." 
+console.log(insert('We are doing some exercises.','JavaScript ',18)); //  "We are doing some JavaScript exercises."
