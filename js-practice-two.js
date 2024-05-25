@@ -79,10 +79,10 @@ console.log(removeNonIntegers([1, true, NaN, "a", 10])) // [1, 10]
 // Practice 5
 // Write a JavaScript function to insert a string within a string at a particular position (default is 1).
 
-function insert(originalString, stringToInsert, position = 1) {
+function insert(originalString, stringToInsert, position = 0) {
     
-    let firstPart = originalString.slice(0, position - 1);
-    let secondPart = originalString.slice(position - 1);
+    let firstPart = originalString.slice(0, position);
+    let secondPart = originalString.slice(position);
 
     let newString = firstPart + stringToInsert + secondPart;
 
