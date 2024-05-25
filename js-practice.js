@@ -39,6 +39,8 @@ function checkAge (age) {
     };
 }
 
+checkAge(age);
+
 /* 4: Loops
 Write a for loop that prints the numbers from 1 to 10.
 Write a while loop that prints the numbers from 10 to 1. */
@@ -65,11 +67,15 @@ function add (t, d) {
     console.log(w);
 }
 
+add(t, d)
+
 const yourName = "World";
 
 function greet(yourName) {
     console.log("Hello " + yourName);
 }
+
+greet(yourName)
 
 /* 6: Combining Everything
 Create a function named createPerson that takes name, age, and hobbies as parameters and returns an object with those properties.
@@ -82,3 +88,13 @@ let c = person.hobbies;
 function createPerson(a, b , c) {
     console.log(a, b, c)
 }
+
+createPerson(a, b, c)
+
+function describePerson(a, b, c) {
+    console.log("This ist " + a);
+    console.log("He is " + b + " years old.")
+    console.log("His hobbies are " + c)
+}
+
+describePerson(a, b, c)
