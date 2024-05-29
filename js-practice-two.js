@@ -27,14 +27,6 @@ function findMostFrequentItem(arr) {
 
     
     let mostFrequentItem = arr[0];
-    let highestFrequency = myArr[arr[0]];
-
-    for (let item in myArr) {
-        if (myArr[item] > highestFrequency) {
-            mostFrequentItem = item;
-            highestFrequency = myArr[item];
-        }
-    }
 
     return mostFrequentItem;
 }
